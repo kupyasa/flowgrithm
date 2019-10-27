@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 08:37:29 &#214;S"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTswNjo1Mjo1NCDDllM7MzM3NA=="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTswODozNzoyOSDDllM7MjszNDkw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;1, say&#305;2, sayac, kare" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#304;lk say&#305;y&#305; giriniz.&quot;" newline="True"/>
+            <input variable="say&#305;1"/>
+            <output expression="&quot;&#304;kinci say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="say&#305;2"/>
+            <do expression="sayac&lt;say&#305;2">
+                <assign variable="sayac" expression="say&#305;1"/>
+                <assign variable="kare" expression="sayac*sayac"/>
+                <output expression="kare" newline="True"/>
+                <assign variable="say&#305;1" expression="say&#305;1+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

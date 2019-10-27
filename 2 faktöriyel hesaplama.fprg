@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 11:52:59 &#214;S"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTswOTowNTowNiDDllM7MzM3Mg=="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTsxMTo1Mjo1OSDDllM7MjszNDg0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fak, say&#305;1, say&#305;2, ilerleme, sayac" type="Integer" array="False" size=""/>
+            <output expression="&quot;1.say&#305;&quot;" newline="True"/>
+            <input variable="say&#305;1"/>
+            <output expression="&quot;2.say&#305;&quot;" newline="True"/>
+            <input variable="say&#305;2"/>
+            <assign variable="ilerleme" expression="say&#305;1"/>
+            <assign variable="sayac" expression="1"/>
+            <assign variable="fak" expression="1"/>
+            <while expression="sayac&lt;ilerleme">
+                <assign variable="sayac" expression="sayac+1"/>
+                <assign variable="fak" expression="fak*sayac"/>
+            </while>
+            <output expression="sayac &amp;&quot; '&#305;n Fakt&#246;riyeli&quot;" newline="True"/>
+            <output expression="fak" newline="True"/>
+            <while expression="ilerleme&lt;say&#305;2">
+                <assign variable="ilerleme" expression="ilerleme +1"/>
+                <assign variable="fak" expression="fak*ilerleme"/>
+                <output expression="ilerleme &amp;&quot; 'in Fakt&#246;riyeli&quot;" newline="True"/>
+                <output expression="fak" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

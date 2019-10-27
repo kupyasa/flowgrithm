@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-24 02:55:15 &#214;&#214;"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNDswMjo1MTo1MCDDlsOWOzM0OTU="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNDswMjo1NToxNSDDlsOWOzE7MzYwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <output expression="&quot;Karenin bir kenar&#305;n&#305;n uzunlu&#287;unu giriniz.&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Karenin alan&#305; :&quot;" newline="True"/>
+            <output expression="a^2" newline="True"/>
+            <output expression="&quot;Karenin &#231;evresi:&quot;" newline="True"/>
+            <output expression="4*a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

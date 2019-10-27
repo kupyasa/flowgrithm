@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 09:15:03 &#214;S"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTswOTowNTowNiDDllM7MzM3Mg=="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTswOToxNTowMyDDllM7MTszNDc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="faktoriyel, i, say&#305;" type="Integer" array="False" size=""/>
+            <assign variable="faktoriyel" expression="1"/>
+            <assign variable="i" expression="1"/>
+            <output expression="&quot;Fakt&#246;riyelini hesaplamak istedi&#287;iniz say&#305;y&#305; girin.&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <for variable="i" start="1" end="say&#305;" direction="inc" step="1">
+                <assign variable="faktoriyel" expression="faktoriyel*i"/>
+            </for>
+            <output expression="&quot;Girdi&#287;iniz say&#305;n&#305;n fakt&#246;riyeli:&quot;" newline="True"/>
+            <output expression="faktoriyel" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

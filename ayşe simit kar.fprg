@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 03:37:26 &#214;S"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTswMzozMDoyMCDDllM7MzM2MA=="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTswMzozNzoyNiDDllM7MTszNDgx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, k" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ay&#351;enin ald&#305;&#287;&#305; simitin tanesinin fiyat&#305;:&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Ay&#351;enin ald&#305;&#287;&#305; simit say&#305;s&#305;:&quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="&quot;Ay&#351;enin yedi&#287;i simit say&#305;s&#305;:&quot;" newline="True"/>
+            <input variable="k"/>
+            <output expression="&quot;Ay&#351;enin kar&#305;:&quot;" newline="True"/>
+            <output expression="((y-k)*(x+1))-(x*y)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

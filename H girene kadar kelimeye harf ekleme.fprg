@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-23 11:18:59 &#214;S"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yMzsxMDoyMjoxMSDDllM7MzM1Nw=="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yMzsxMToxODo1OSDDllM7MTszNDgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kelime, harf" type="String" array="False" size=""/>
+            <assign variable="harf" expression="&quot;&quot;"/>
+            <assign variable="kelime" expression="&quot;&quot;"/>
+            <output expression="&quot;harften kelimeye giren programa ho&#351; geldiniz &#231;&#305;kt&#305; almak i&#231;in H harfini giriniz.Her turda 1 harf girme hakk&#305;n&#305;z vard&#305;r.&quot;" newline="True"/>
+            <while expression="harf !=&quot;H&quot;">
+                <output expression="&quot;Harf giriniz&quot;" newline="True"/>
+                <input variable="harf"/>
+                <if expression="len(harf)&gt;1">
+                    <then>
+                        <output expression="&quot;tek karakter gir.&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <if expression="harf ==&quot;H&quot;">
+                            <then/>
+                            <else>
+                                <assign variable="kelime" expression="kelime &amp; harf"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;kelimeniz:&quot; &amp; kelime" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

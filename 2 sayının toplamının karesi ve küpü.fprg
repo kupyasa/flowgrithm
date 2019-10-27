@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-24 02:22:54 &#214;&#214;"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNDswMjoxNDozMyDDlsOWOzM0OTU="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNDswMjoyMjo1NCDDlsOWOzE7MzYwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, toplam, toplamkaresi, toplamk&#252;p&#252;" type="Integer" array="False" size=""/>
+            <output expression="&quot;Birinci say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;&#304;kinci say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="toplam" expression="a + b"/>
+            <output expression="&quot;&#304;ki say&#305;n&#305;n toplam&#305;n&#305;n karesi:&quot;" newline="True"/>
+            <output expression="toplam^2" newline="True"/>
+            <output expression="&quot;&#304;ki say&#305;n&#305;n toplam&#305;n&#305;n k&#252;p&#252;:&quot;" newline="True"/>
+            <output expression="toplam^3" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

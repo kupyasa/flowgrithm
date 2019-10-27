@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 04:55:04 &#214;S"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTswNDo1MjoyOSDDllM7MzM3NA=="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTswNDo1NTowNCDDllM7MTszNDc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;1.say&#305;y&#305; girinz&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;2.say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a%b==0">
+                <then>
+                    <output expression="&quot;a b'nin kat&#305;d&#305;r.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;a b'nin kat&#305; de&#287;ildir.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

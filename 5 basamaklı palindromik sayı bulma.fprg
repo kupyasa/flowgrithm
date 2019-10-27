@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-23 11:54:48 &#214;S"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yMzsxMTozMjoyOSDDllM7MzM2OA=="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yMzsxMTo1NDo0OCDDllM7MTszNDgx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;, onbinler, binler, y&#252;zler, onlar, birler" type="Integer" array="False" size=""/>
+            <assign variable="say&#305;" expression="0"/>
+            <do expression="say&#305;=0">
+                <output expression="&quot;Say&#305;y&#305; giriniz&quot;" newline="True"/>
+                <input variable="say&#305;"/>
+                <if expression="len(toString(say&#305;))!=5">
+                    <then>
+                        <output expression="&quot;L&#252;tfen 5 basamakl&#305; bir say&#305; giriniz&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <assign variable="onbinler" expression="(say&#305;/10000)%10"/>
+                        <assign variable="binler" expression="(say&#305;/1000)%10"/>
+                        <assign variable="y&#252;zler" expression="(say&#305;/100)%10"/>
+                        <assign variable="onlar" expression="(say&#305;/10)%10"/>
+                        <assign variable="birler" expression="say&#305;%10"/>
+                        <if expression="onbinler==birler &amp;&amp; binler==onlar">
+                            <then>
+                                <output expression="&quot;Palindromik say&#305;d&#305;r.&quot;" newline="True"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;Palndromik  say&#305; de&#287;ildir.&quot;" newline="True"/>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

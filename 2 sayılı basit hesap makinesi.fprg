@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-24 12:41:24 &#214;&#214;"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNDsxMjoxNjoyNSDDlsOWOzM0OTk="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNDsxMjo0MToyNCDDlsOWOzE7MzYwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, toplam, b&#246;lme, &#231;arpma, &#231;&#305;karma" type="Integer" array="False" size=""/>
+            <output expression="&quot;Birinci say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;&#304;kinci say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Toplam:&quot;" newline="True"/>
+            <assign variable="toplam" expression="a+b"/>
+            <output expression="toplam" newline="True"/>
+            <output expression="&quot;&#199;&#305;karma:&quot;" newline="True"/>
+            <assign variable="&#231;&#305;karma" expression="a-b"/>
+            <output expression="&#231;&#305;karma" newline="True"/>
+            <output expression="&quot;&#199;arp&#305;m:&quot;" newline="True"/>
+            <assign variable="&#231;arpma" expression="a*b"/>
+            <output expression="&#231;arpma" newline="True"/>
+            <output expression="&quot;B&#246;lme:&quot;" newline="True"/>
+            <assign variable="b&#246;lme" expression="a/b"/>
+            <output expression="b&#246;lme" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

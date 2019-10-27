@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-16 02:09:09 &#214;&#214;"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0xNjswMTo0NzozMCDDlsOWOzM0OTg="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0xNjswMjowOTowOSDDlsOWOzE7MzYxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;, ciftToplam, tekToplam" type="Integer" array="False" size=""/>
+            <assign variable="say&#305;" expression="0"/>
+            <assign variable="ciftToplam" expression="0"/>
+            <assign variable="tekToplam" expression="0"/>
+            <while expression="say&#305;&gt;=0">
+                <output expression="&quot;say&#305;y&#305; giriniz&quot;" newline="True"/>
+                <input variable="say&#305;"/>
+                <if expression="say&#305;&gt;=0">
+                    <then>
+                        <if expression="say&#305;%2=0">
+                            <then>
+                                <output expression="&quot;say&#305; &#231;ifttir.&quot;" newline="True"/>
+                                <assign variable="ciftToplam" expression="say&#305;+ciftToplam"/>
+                            </then>
+                            <else>
+                                <output expression="&quot;say&#305; tektir&quot;" newline="True"/>
+                                <assign variable="tekToplam" expression="say&#305;+tekToplam"/>
+                            </else>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <output expression="&quot;Girdi&#287;iniz tek say&#305;lar&#305;n toplam&#305;:&quot;" newline="True"/>
+            <output expression="tekToplam" newline="True"/>
+            <output expression="&quot;Girdi&#287;iniz &#231;ift say&#305;lar&#305;n toplam&#305;:&quot;" newline="True"/>
+            <output expression="ciftToplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

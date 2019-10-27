@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 06:04:52 &#214;S"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTswNjowMjoxOCDDllM7MzM2OQ=="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTswNjowNDo1MiDDllM7MTszNDc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac, toplam" type="Integer" array="False" size=""/>
+            <assign variable="sayac" expression="1"/>
+            <assign variable="toplam" expression="0"/>
+            <while expression="sayac&lt;100">
+                <assign variable="sayac" expression="sayac+1"/>
+                <assign variable="toplam" expression="toplam+sayac"/>
+            </while>
+            <output expression="&quot;1'den 100 e kadar olan say&#305;lar&#305;n toplam&#305;&quot;" newline="True"/>
+            <output expression="toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

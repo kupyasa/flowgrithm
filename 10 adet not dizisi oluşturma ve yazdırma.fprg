@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-23 11:27:56 &#214;S"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yMzsxMToxOTozMCDDllM7MzM2NQ=="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yMzsxMToyNzo1NiDDllM7MTszNDgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="notlar" type="Integer" array="True" size="10"/>
+            <declare name="i, j" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <assign variable="notlar[i]" expression="random(101)"/>
+            </for>
+            <for variable="j" start="0" end="9" direction="inc" step="1">
+                <output expression="j+1 &amp;&quot; .not:&quot; &amp; notlar[j]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

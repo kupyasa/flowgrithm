@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-24 02:50:02 &#214;&#214;"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNDswMjo0NToyMCDDlsOWOzM0OTU="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNDswMjo1MDowMiDDlsOWOzE7MzU5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="saatbas&#305;ucret, saat, maas" type="Integer" array="False" size=""/>
+            <output expression="&quot;Saat ba&#351;&#305; &#252;creti girin.&quot;" newline="True"/>
+            <input variable="saatbas&#305;ucret"/>
+            <output expression="&quot;&#199;al&#305;&#351;&#305;lan saati girin.&quot;" newline="True"/>
+            <input variable="saat"/>
+            <assign variable="maas" expression="saatbas&#305;ucret*saat"/>
+            <output expression="&quot;Al&#305;nacak maa&#351;:&quot; &amp; maas  &amp; &quot; TL&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

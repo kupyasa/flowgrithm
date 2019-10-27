@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-16 01:45:05 &#214;&#214;"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0xNjsxMjo1ODowNiDDlsOWOzM1MDU="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0xNjswMTo0NTowNSDDlsOWOzY7MzYxMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;, yuzler, onlar, birler, toplam" type="Integer" array="False" size=""/>
+            <assign variable="say&#305;" expression="0"/>
+            <do expression="len(toString(say&#305;))!=3">
+                <output expression="&quot;Bir say&#305; giriniz&quot;" newline="True"/>
+                <input variable="say&#305;"/>
+                <if expression="len(toString(say&#305;))!=3">
+                    <then>
+                        <output expression="&quot;3 basamakl&#305; bir say&#305; giriniz&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <assign variable="yuzler" expression="say&#305;/100"/>
+                        <assign variable="onlar" expression="(say&#305;/10)%10"/>
+                        <assign variable="birler" expression="say&#305;%10"/>
+                        <assign variable="toplam" expression="yuzler+onlar+birler"/>
+                    </else>
+                </if>
+            </do>
+            <output expression="&quot;Girilen 3 basamakl&#305; say&#305;lar&#305;n y&#252;zler,onlar,birler basama&#287;&#305;ndaki rakamlar&#305;n toplamlar&#305;&quot;" newline="True"/>
+            <output expression="toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

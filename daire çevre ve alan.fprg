@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Failception"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-10-25 03:22:52 &#214;S"/>
+        <attribute name="created" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTswMjo0MDowOCDDllM7MzM2Ng=="/>
+        <attribute name="edited" value="RmFpbGNlcHRpb247RkFJTENFUFRJT047MjAxOS0xMC0yNTswMzoyMjo1MiDDllM7MTszNDc0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pisay&#305;s&#305;, yar&#305;&#231;ap, dairealan, daire&#231;evre" type="Integer" array="False" size=""/>
+            <output expression="&quot;Pi say&#305;s&#305;n&#305; giriniz.&quot;" newline="True"/>
+            <input variable="pisay&#305;s&#305;"/>
+            <output expression="&quot;Dairenin yar&#305;&#231;ap&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="yar&#305;&#231;ap"/>
+            <assign variable="dairealan" expression="pisay&#305;s&#305;*yar&#305;&#231;ap^2"/>
+            <assign variable="daire&#231;evre" expression="2*pisay&#305;s&#305;*yar&#305;&#231;ap"/>
+            <output expression="&quot;Dairenin alan&#305;:&quot;" newline="True"/>
+            <output expression="dairealan" newline="True"/>
+            <output expression="&quot;Dairenin &#231;evresi:&quot;" newline="True"/>
+            <output expression="daire&#231;evre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
